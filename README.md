@@ -27,3 +27,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Carpeta generatePDF --> Backend
+```
+En esta carpeta esta todoel proyecto de la parte backend, cración del model usuario, creación de los servicios y los 
+controladores de las peticiones Http. He creado un CRUD básico con un servicio más, llamado PdfServie,en el cúal genera
+un pdf de los datos del usuario id que le pasamos.
+Para ello hemos utlizado librerias: jtidy, thymeleaf-layout-dialect, spring-boot-starter-thymeleaf y openpdf
+
+## Muchas gracias por ver mi proyecto :)
