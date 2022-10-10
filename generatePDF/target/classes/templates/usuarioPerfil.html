@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.thymeleaf.org"></html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>UsurioPerfil Pdf</title>
+</head>
+<body>
+    <div>
+        <img src="" alt="" class="logo">
+    </div>
+    <h1>Datos del perfil del usuario</h1>
+    <table class="table-datos">
+        <th>
+            <td>Nombre</td>
+            <td>Documento</td>
+            <td>Centro</td>
+            <td>Provincia</td>
+            <td>Idiomas</td>
+        </th>
+        <tr>
+            <td th:text="${user.nombre}"></td>
+            <td th:text="${user.dni}"></td>
+            <td th:text="${user.centro}"></td>
+            <td th:text="${user.provincia}"></td>
+            <td th:text="${user.idiomas}"></td>
+        </tr>
+    </table>
+</body>
+</html>
